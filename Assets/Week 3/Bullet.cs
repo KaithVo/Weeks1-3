@@ -16,7 +16,7 @@ public class Bullet : MonoBehaviour
         {
             PointAtMouse();
         }
-        PointAtMouse();
+       // PointAtMouse();
     }
 
     void PointAtMouse()
@@ -30,7 +30,8 @@ public class Bullet : MonoBehaviour
 
     void Movement()
     {
-        transform.position = transform.up * speed * Time.deltaTime;
+        //Without the "+", it just "spawning the new triangle without moving", the "+" helps keeping update te new position, which means moving "+1 every frames"
+        transform.position += transform.up * speed * Time.deltaTime;
         //transform. Translate(transform.up * speed * Time.deltaTime); 
     }
 }
