@@ -41,11 +41,7 @@ public class TIMER : MonoBehaviour
             pos.x = Camera.main.ScreenToWorldPoint(fixedPos).x;
             speed = speed * -1;
         }
-        transform.position = pos;
-    }
-
-    void movement()
-    {
         transform.position = Vector2.Lerp(start, end, t);
     }
 }
+
