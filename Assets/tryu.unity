@@ -132,7 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 58750330}
   - component: {fileID: 58750329}
-  - component: {fileID: 58750328}
+  - component: {fileID: 58750331}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -140,18 +140,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &58750328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 58750327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1eca7d05b7d0947d6b80856114b86971, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &58750329
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -219,6 +207,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &58750331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58750327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 562c45503325da24cb4acc8f1792bd21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  t: 0
+  start: {x: 0, y: 0}
+  end: {x: 0, y: 0}
 --- !u!1 &1897912866
 GameObject:
   m_ObjectHideFlags: 0
