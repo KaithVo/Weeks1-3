@@ -36,7 +36,7 @@ public class RatMovement : MonoBehaviour
 
         //transform.position = Vector2.Lerp(start, end , Easings.BackIn(t));
         //because I 
-        Vector2 pos = strt + (nd - strt) * Easings.BackInOut(t);
+        Vector2 pos = strt + (nd - strt) * Easings.BackInOut(time);
         transform.position = pos;
     }
 }
