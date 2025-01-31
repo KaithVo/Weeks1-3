@@ -9,8 +9,8 @@ public class RatMovement : MonoBehaviour
 
     public AnimationCurve curve;
 
-    public Vector2 start = new Vector2(4, 0);
-    public Vector2 end = new Vector2(-4, 1);
+    public Vector2 start = new Vector2(8, 1);
+    public Vector2 end = new Vector2(-7, 4);
 
 
     // Start is called before the first frame update
@@ -32,7 +32,7 @@ public class RatMovement : MonoBehaviour
         //scale. x = Mathf.Lerp(100, 300, t);
         //Lerp (min, max, speed)
         //Lerp is kinda like map(), where it constraint the position stuff
-        t += Time.deltaTime;
+        t += 0.5F * Time.deltaTime;
         //we do animation on the object so use transform obviously
                  //vector2 since we only use x,y value.
 

@@ -7,6 +7,7 @@ public class BlinkingStars : MonoBehaviour
 {
     // needs to add curve so that the curve animation box show in the setting of the script
     public AnimationCurve curve;
+    //Spawner on the right click (1)
 
     [Range (0,2)]// Range of the min and max it will go,applied to the variable below (t), kinda like constraint but not yet
     public float t; //just a variable represent for the height/ time in this, to use in the code
