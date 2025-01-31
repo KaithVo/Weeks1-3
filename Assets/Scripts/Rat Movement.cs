@@ -32,7 +32,7 @@ public class RatMovement : MonoBehaviour
         //scale. x = Mathf.Lerp(100, 300, t);
         //Lerp (min, max, speed)
         //Lerp is kinda like map(), where it constraint the position stuff
-        t += 0.5F * Time.deltaTime;
+        t += 0.2F * Time.deltaTime;
         //we do animation on the object so use transform obviously
                  //vector2 since we only use x,y value.
 
